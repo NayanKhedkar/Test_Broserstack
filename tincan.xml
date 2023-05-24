@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tincan xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://projecttincan.com/tincan.xsd">
+	<activities>
+		<activity id="http://M5_Gravity Filtration" type="http://adlnet.gov/expapi/activities/course">
+			<name lang="und">Weighing Solids</name>
+			<description lang="und" />
+			<launch lang="und">index_lms.html</launch>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5p0cHlozUo1" type="http://adlnet.gov/expapi/activities/objective">
+			<name lang="und">Weighing Solids</name>
+			<description lang="und">Weighing Solids</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5ZSc7Oi8sFx" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Welcome</name>
+			<description lang="und">Welcome</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6hOAeQeV6H4" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Introduction</name>
+			<description lang="und">Introduction</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6HeVpQxbkQi" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Weighing Solids Video</name>
+			<description lang="und">Weighing Solids Video</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/63XVOkLz0en" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 1 of 6</name>
+			<description lang="und">Question 1 of 6</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/63XVOkLz0en/5dHdycNSrW4" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Question 1 of 6</name>
+			<description lang="und">Question 1 of 6</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5v2Uq2nvht6</correctResponsePattern>
+				<correctResponsePattern>choice_6jGWV5jpfWt</correctResponsePattern>
+				<correctResponsePattern>choice_6l16L3CzAez</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5v2Uq2nvht6</id>
+					<description lang="und">The potential health hazard of a substance contacting my skin.</description>
+				</component>
+				<component>
+					<id>choice_6jGWV5jpfWt</id>
+					<description lang="und">The potential health hazard of a substance contacting my eyes.</description>
+				</component>
+				<component>
+					<id>choice_6l16L3CzAez</id>
+					<description lang="und">The potential health hazard of breathing in a powder.</description>
+				</component>
+				<component>
+					<id>choice_5xehIhg6nOe</id>
+					<description lang="und">The potential for the balance to break if not properly leveled.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6KXUE3XgJ34" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Why should you pour your reagent out of the stock container and into a secondary container before weighing it out?</name>
+			<description lang="und">Why should you pour your reagent out of the stock container and into a secondary container before weighing it out?</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6KXUE3XgJ34/6mU8lCZ2JgG" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Why should you pour your reagent out of the stock container and into a secondary container before weighing it out?</name>
+			<description lang="und">Why should you pour your reagent out of the stock container and into a secondary container before weighing it out?</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5mBU7B3YhOO</correctResponsePattern>
+				<correctResponsePattern>choice_6rFs0gz0BvV</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5mBU7B3YhOO</id>
+					<description lang="und">To visually inspect my reagent for consistent color and particle size before weighing.</description>
+				</component>
+				<component>
+					<id>choice_6rFs0gz0BvV</id>
+					<description lang="und">To prevent contamination of the reagent in the stock container.</description>
+				</component>
+				<component>
+					<id>choice_6IOmgyVnqzp</id>
+					<description lang="und">I don't need to pour my reagent into a secondary container.</description>
+				</component>
+				<component>
+					<id>choice_6ae7mVgZKX8</id>
+					<description lang="und">To avoid moving the stock container from its original position.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6fVDxC2PUAK" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 3 of 6</name>
+			<description lang="und">Question 3 of 6</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6fVDxC2PUAK/6UhmfHyUwsR" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Question 3 of 6</name>
+			<description lang="und">Question 3 of 6</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_653qRgzwrCb</correctResponsePattern>
+				<correctResponsePattern>choice_5cg4DO3Mh0q</correctResponsePattern>
+				<correctResponsePattern>choice_5j5Sb5c5gwA</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_653qRgzwrCb</id>
+					<description lang="und">Weigh paper.</description>
+				</component>
+				<component>
+					<id>choice_5cg4DO3Mh0q</id>
+					<description lang="und">Weigh boat.</description>
+				</component>
+				<component>
+					<id>choice_5j5Sb5c5gwA</id>
+					<description lang="und">Test tube.</description>
+				</component>
+				<component>
+					<id>choice_6OCDFOjvJk3</id>
+					<description lang="und">500 mL flask.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5Yi2bk3cZZc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 4 of 6</name>
+			<description lang="und">Question 4 of 6</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5Yi2bk3cZZc/5oIxK4dACvd" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Question 4 of 6</name>
+			<description lang="und">Question 4 of 6</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_6DMiB5sZxO1</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6DMiB5sZxO1</id>
+					<description lang="und">Use a spatula.</description>
+				</component>
+				<component>
+					<id>choice_6NaG7gIeIiK</id>
+					<description lang="und">Pour directly from the secondary container.</description>
+				</component>
+				<component>
+					<id>choice_6aE3UYIlGAd</id>
+					<description lang="und">Transfer manually with my gloved hands.</description>
+				</component>
+				<component>
+					<id>choice_5hqE1Mu0HVx</id>
+					<description lang="und">Use a transfer pipette.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5x9Agx7KzUc" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Question 5 of 6</name>
+			<description lang="und">Question 5 of 6</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5x9Agx7KzUc/5abR8fCfD28" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Question 5 of 6</name>
+			<description lang="und">Question 5 of 6</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5cOhaJ7r87R</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_6VXUy0bUfFy</id>
+					<description lang="und">Back into the secondary container.</description>
+				</component>
+				<component>
+					<id>choice_6hgt1pD4dyH</id>
+					<description lang="und">Back into the stock container.</description>
+				</component>
+				<component>
+					<id>choice_6GH0DS9yAoc</id>
+					<description lang="und">Into the trash.</description>
+				</component>
+				<component>
+					<id>choice_5cOhaJ7r87R</id>
+					<description lang="und">Into the hazardous waste container for solids.</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/62fxpYr6bvz" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Choose the correct order for using an analytical balance.</name>
+			<description lang="und">Choose the correct order for using an analytical balance.</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/62fxpYr6bvz/5xFe7t1PC68" type="http://adlnet.gov/expapi/activities/cmi.interaction">
+			<name lang="und">Choose the correct order for using an analytical balance.</name>
+			<description lang="und">Choose the correct order for using an analytical balance.</description>
+			<interactionType>choice</interactionType>
+			<correctResponsePatterns>
+				<correctResponsePattern>choice_5dsJ3CFBmEu</correctResponsePattern>
+				<correctResponsePattern>choice_6Q1pJgsRJhe</correctResponsePattern>
+				<correctResponsePattern>choice_5aMrVJFUN3K</correctResponsePattern>
+				<correctResponsePattern>choice_6Muegmdspez</correctResponsePattern>
+			</correctResponsePatterns>
+			<choices>
+				<component>
+					<id>choice_5dsJ3CFBmEu</id>
+					<description lang="und">Check Box 1</description>
+				</component>
+				<component>
+					<id>choice_6Q1pJgsRJhe</id>
+					<description lang="und">Check Box 2</description>
+				</component>
+				<component>
+					<id>choice_5aMrVJFUN3K</id>
+					<description lang="und">Check Box 3</description>
+				</component>
+				<component>
+					<id>choice_6Muegmdspez</id>
+					<description lang="und">Check Box 4</description>
+				</component>
+				<component>
+					<id>choice_6jEag93q03x</id>
+					<description lang="und">Check Box 5</description>
+				</component>
+			</choices>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5mxEWGuMq74" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Result</name>
+			<description lang="und">Result</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5ktLomLe3Rg" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Key Takeaways</name>
+			<description lang="und">Key Takeaways</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6rWQwu72OT9" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Test</name>
+			<description lang="und">Test</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6A3gTrOMNyA" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Video</name>
+			<description lang="und">Video</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5ZKZQFIWH42" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Do not delete Completion</name>
+			<description lang="und">Do not delete Completion</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6PWRFFUlhjG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Help</name>
+			<description lang="und">Help</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/5dJyTQP9X9q" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Instructions for Navigating This Module</name>
+			<description lang="und">Instructions for Navigating This Module</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/62nuECyecDm" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Video Player Help</name>
+			<description lang="und">Video Player Help</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/65Vd00ukxQW" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Accessibility Options</name>
+			<description lang="und">Accessibility Options</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6QbX7PXD5Vh" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Glossary</name>
+			<description lang="und">Glossary</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/61RqJc0hGxI" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Learn More</name>
+			<description lang="und">Learn More</description>
+		</activity>
+		<activity id="http://M5_Gravity Filtration/6XUqmVBC7CG" type="http://adlnet.gov/expapi/activities/module">
+			<name lang="und">Images from the Question 3</name>
+			<description lang="und">Images from the Question 3</description>
+		</activity>
+	</activities>
+</tincan>
