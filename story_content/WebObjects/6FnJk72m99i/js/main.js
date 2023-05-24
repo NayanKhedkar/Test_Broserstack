@@ -46,7 +46,7 @@ document.addEventListener('contextmenu', function (event) { event.preventDefault
 // when player setup Done
 function setupDone(playerObj) {
     disableEnableSeekBar(IS_DISABLE_SEEK_BAR);
-    var player = window.parent.GetPlayer();
+    var player = window.parent ? window.parent.GetPlayer() : false;
     toggleCaption();
     updateVolume();
     onPlayerCaptionClick();
@@ -87,14 +87,14 @@ function onShowTranscript(playerObj) {
 }
 
 function onPlay(playerObj) {
-    var player = window.parent.GetPlayer();
+    var player = window.parent ? window.parent.GetPlayer() : false;
     if (player) {
         player.SetVar(IS_VIDEO_PLAYING_VARIABLE_NAME, true);
     }
 }
 
 function onPause(playerObj) {
-    var player = window.parent.GetPlayer();
+    var player = window.parent ? window.parent.GetPlayer() : false;
     if (player) {
         player.SetVar(IS_VIDEO_PLAYING_VARIABLE_NAME, false);
     }
@@ -206,7 +206,7 @@ window.parent.addEventListener("message", function (event) {
 }, false);
 
 function updateVolume() {
-    var player = window.parent.GetPlayer();
+    var player = window.parent ? window.parent.GetPlayer() : {};
     var volume = player.GetVar(UPDATE_VOLUME_VARIABLE_NAME);
     if (AblePlayerInstances[0] && AblePlayerInstances[0].$volumeButton) {
         AblePlayerInstances[0].setVolume(volume);
@@ -221,7 +221,7 @@ function updateVolume() {
 }
 
 function toggleMute() {
-    var player = window.parent.GetPlayer();
+    var player = window.parent ? window.parent.GetPlayer() : {};
     var isMute = player.GetVar(MUTE_UNMUTE_VARIABLE_NAME);
     updateVolume();
     if (AblePlayerInstances[0] && AblePlayerInstances[0].$volumeButton) {
@@ -232,7 +232,7 @@ function toggleMute() {
 function toggleCaption() {
 
     if (AblePlayerInstances[0]) {
-        var player = window.parent.GetPlayer();
+        var player = window.parent ? window.parent.GetPlayer() : {};
         var displayCaption = player.GetVar(CAPTION_SHOW_HIDE_VARIABLE_NAME);
         if (!AblePlayerInstances[0].captionsOn && displayCaption) {
             AblePlayerInstances[0].$ccButton.click();
@@ -246,7 +246,7 @@ function toggleCaption() {
 function onPlayerCaptionClick() {
     if (AblePlayerInstances[0]) {
         AblePlayerInstances[0].$ccButton.on('click', function () {
-            var player = window.parent.GetPlayer();
+            var player = window.parent ? window.parent.GetPlayer() : {};
             player.SetVar(CAPTION_SHOW_HIDE_VARIABLE_NAME, AblePlayerInstances[0].captionsOn);
         });
     }
@@ -254,18 +254,18 @@ function onPlayerCaptionClick() {
 
 //update variables
 function mediaCompleted() {
-    var player = window.parent.GetPlayer();
+    var player = window.parent ? window.parent.GetPlayer() : {};
     player.SetVar(VIDEO_COMPLETED_VARIABLE_NAME, true);
 }
 
 function onVolumeChange(volume) {
-    var player = window.parent.GetPlayer();
+    var player = window.parent ? window.parent.GetPlayer() : {};
     player.SetVar(UPDATE_VOLUME_VARIABLE_NAME, volume);
     window.parent.updateVolume(volume);
 }
 
 function onMuteUnmute(isMute) {
-    var player = window.parent.GetPlayer();
+    var player = window.parent ? window.parent.GetPlayer() : {};
     player.SetVar(MUTE_UNMUTE_VARIABLE_NAME, isMute);
 }
 
@@ -314,7 +314,7 @@ function toggleDisabled(status) {
 
 //window.postMessage("seekbar", "*");
 function disableEnableSeekBar() {
-    var player = window.parent.GetPlayer();
+    var player = window.parent ? window.parent.GetPlayer() : false;
     var seekBar = player.GetVar(ACTIVE_SEEK_BAR_VARIABLE_NAME);
     IS_DISABLE_SEEK_BAR = seekBar != undefined ? seekBar : true;
 }
@@ -327,8 +327,8 @@ function setCurrentTime(time) {
 
 function updateMediaTime(playerObj) {
     console.log("TimeUpdate : elapsed", playerObj.elapsed);
-    var player = window.parent.GetPlayer();
-    player.SetVar(CURRENT_TIME_VARIABLE_NAME, playerObj.elapsed);
+    var player = window.parent ? window.parent.GetPlayer() : false;
+    if(player) player.SetVar(CURRENT_TIME_VARIABLE_NAME, playerObj.elapsed);
 }
 
 function resizePlayer() {
